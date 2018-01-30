@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+}
+#container {
+  width: 100%;
+  height: 600px;
+}
+#container canvas {
+  cursor: pointer;
+}
+#container .form-select {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 10px;
+  width: 40%;
+  height: 80px;
+  margin-top: 10px;
+  background: rgba(11, 12, 12, 0.3);
+}
+#container .form-select form {
+  margin-top: 15px;
+  padding-left: 40px;
+}
+#container .form-select form select {
+  font-size: 15px;
+  padding-left: 10px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 10px;
+}
+#container .form-select form input {
+  margin-left: 20px;
+  padding: 12px;
+  border-radius: 10px;
+}
+#container .form-select form input:hover {
+  cursor: pointer;
+}
+#container .list-elements {
+  position: absolute;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 10px;
+  margin-top: 450px;
+  height: 150px;
+  overflow: auto;
+  background: rgba(11, 12, 12, 0.3);
+  color: #FFFFFF;
+}
+#container .list-elements .topName h3 {
+  margin-top: 5px;
+  text-align: center;
+}
+#container .list-elements ul {
+  padding: 0px;
+}
+#container .list-elements ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+#container .list-elements ul li button {
+  cursor: pointer;
+}
+#container .list-elements .delete-all {
+  position: absolute;
+  right: 0px;
+  margin-top: -40px;
+  width: 100px;
+}
+.none-block {
+  display: none;
+}
